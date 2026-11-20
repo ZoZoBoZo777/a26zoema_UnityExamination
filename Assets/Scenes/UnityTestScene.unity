@@ -1725,22 +1725,22 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5466fd2c361cf8f44b662bbb52504761, type: 2}
+  m_sharedMaterial: {fileID: 2085045589880967418, guid: 5466fd2c361cf8f44b662bbb52504761, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
+  m_fontColor: {r: 1, g: 0.023584902, b: 0.023584902, a: 0}
+  m_enableVertexGradient: 1
+  m_colorMode: 1
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0.9528302, g: 0.19326274, b: 0.19326274, a: 1}
+    topRight: {r: 0.9529412, g: 0.6155788, b: 0.19215687, a: 1}
+    bottomLeft: {r: 0.9528302, g: 0.19326274, b: 0.19326274, a: 1}
+    bottomRight: {r: 0.9529412, g: 0.6155788, b: 0.19215687, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -2417,7 +2417,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!249 &1060024042
 AreaEffector2D:
   serializedVersion: 3
@@ -2433,7 +2433,7 @@ AreaEffector2D:
     m_Bits: 4294967295
   m_UseGlobalAngle: 0
   m_ForceAngle: 90
-  m_ForceMagnitude: 100000
+  m_ForceMagnitude: 100
   m_ForceVariation: 0
   m_ForceTarget: 1
   m_LinearDamping: 0
@@ -3505,37 +3505,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.27, y: -3.49, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1487377844
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1487377845}
-  m_Layer: 0
-  m_Name: ---UIExtra---
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1487377845
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1487377844}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 325.24493, y: 223.86157, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11432,6 +11401,7 @@ SceneRoots:
   - {fileID: 308698884}
   - {fileID: 1060024044}
   - {fileID: 1761571241}
+  - {fileID: 1652506138}
   - {fileID: 1978900858}
   - {fileID: 1758425165}
   - {fileID: 1311938186}
@@ -11442,11 +11412,9 @@ SceneRoots:
   - {fileID: 583645813}
   - {fileID: 150405981}
   - {fileID: 1587501936}
-  - {fileID: 1487377845}
   - {fileID: 409448049}
   - {fileID: 962702268}
   - {fileID: 1943643463}
-  - {fileID: 1652506138}
   - {fileID: 686316836}
   - {fileID: 2100587310}
   - {fileID: 966135405}
